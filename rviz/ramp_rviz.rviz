@@ -62,19 +62,211 @@ Visualization Manager:
         All Enabled: false
         base_link:
           Value: false
-        exotica/Frame0Aleft_target:
+        beam1:
+          Value: false
+        beam1_filtered:
+          Value: true
+        beam2:
+          Value: false
+        beam2_filtered:
           Value: true
         exotica/Frame0Bworld_frame:
           Value: true
-        exotica/Frame1Aright_target:
+        beam4:
+          Value: false
+        beam4_filtered:
           Value: true
-        exotica/Frame1Bworld_frame:
+        camera_bottom_screw_frame:
+          Value: false
+        camera_color_frame:
+          Value: false
+        camera_color_optical_frame:
+          Value: false
+        camera_depth_frame:
+          Value: false
+        camera_depth_optical_frame:
+          Value: false
+        camera_infra1_frame:
+          Value: false
+        camera_infra1_optical_frame:
+          Value: false
+        camera_infra2_frame:
+          Value: false
+        camera_infra2_optical_frame:
+          Value: false
+        camera_link:
+          Value: false
+        chassis_link:
+          Value: false
+        dual_gen3_base_link:
+          Value: false
+        ewellix_lift_base_link:
+          Value: false
+        ewellix_lift_top_link:
+          Value: false
+        ewellix_mount_flange_link:
+          Value: false
+        exotica/table_origin:
           Value: true
-        exotica/Frame2Aleft_forearm_target:
+        exotica/world_frame:
           Value: true
-        exotica/Frame2Bworld_frame:
+        front_cover_link:
+          Value: false
+        front_lights_link:
+          Value: false
+        gen3_plate_link:
+          Value: false
+        imu_link:
+          Value: false
+        left_kinova_arm_base_link:
+          Value: false
+        left_kinova_arm_bracelet_link:
+          Value: false
+        left_kinova_arm_camera_color_frame:
+          Value: false
+        left_kinova_arm_camera_depth_frame:
+          Value: false
+        left_kinova_arm_camera_link:
+          Value: false
+        left_kinova_arm_end_effector_link:
+          Value: false
+        left_kinova_arm_forearm_link:
+          Value: false
+        left_kinova_arm_half_arm_1_link:
+          Value: false
+        left_kinova_arm_half_arm_2_link:
+          Value: false
+        left_kinova_arm_left_inner_finger:
+          Value: false
+        left_kinova_arm_left_inner_finger_pad:
+          Value: false
+        left_kinova_arm_left_inner_knuckle:
+          Value: false
+        left_kinova_arm_left_outer_finger:
+          Value: false
+        left_kinova_arm_left_outer_knuckle:
+          Value: false
+        left_kinova_arm_right_inner_finger:
+          Value: false
+        left_kinova_arm_right_inner_finger_pad:
+          Value: false
+        left_kinova_arm_right_inner_knuckle:
+          Value: false
+        left_kinova_arm_right_outer_finger:
+          Value: false
+        left_kinova_arm_right_outer_knuckle:
+          Value: false
+        left_kinova_arm_robotiq_arg2f_base_link:
+          Value: false
+        left_kinova_arm_shoulder_link:
+          Value: false
+        left_kinova_arm_spherical_wrist_1_link:
+          Value: false
+        left_kinova_arm_spherical_wrist_2_link:
+          Value: false
+        left_kinova_arm_tool_frame:
           Value: true
-        exotica/Frame3Aright_forearm_target:
+        left_side_cover_link:
+          Value: false
+        mid_mount:
+          Value: false
+        ptu_base_link:
+          Value: false
+        ptu_mount_link:
+          Value: false
+        ptu_pan_link:
+          Value: false
+        ptu_tilt_link:
+          Value: false
+        ptu_tilted_link:
+          Value: false
+        realsense_mount_link:
+          Value: false
+        rear_cover_link:
+          Value: false
+        rear_lights_link:
+          Value: false
+        rear_plate_base_link:
+          Value: false
+        rear_plate_link:
+          Value: false
+        rear_rocker_link:
+          Value: false
+        right_kinova_arm_base_link:
+          Value: false
+        right_kinova_arm_bracelet_link:
+          Value: false
+        right_kinova_arm_camera_color_frame:
+          Value: false
+        right_kinova_arm_camera_depth_frame:
+          Value: false
+        right_kinova_arm_camera_link:
+          Value: false
+        right_kinova_arm_end_effector_link:
+          Value: false
+        right_kinova_arm_forearm_link:
+          Value: false
+        right_kinova_arm_half_arm_1_link:
+          Value: false
+        right_kinova_arm_half_arm_2_link:
+          Value: false
+        right_kinova_arm_left_inner_finger:
+          Value: false
+        right_kinova_arm_left_inner_finger_pad:
+          Value: false
+        right_kinova_arm_left_inner_knuckle:
+          Value: false
+        right_kinova_arm_left_outer_finger:
+          Value: false
+        right_kinova_arm_left_outer_knuckle:
+          Value: false
+        right_kinova_arm_right_inner_finger:
+          Value: false
+        right_kinova_arm_right_inner_finger_pad:
+          Value: false
+        right_kinova_arm_right_inner_knuckle:
+          Value: false
+        right_kinova_arm_right_outer_finger:
+          Value: false
+        right_kinova_arm_right_outer_knuckle:
+          Value: false
+        right_kinova_arm_robotiq_arg2f_base_link:
+          Value: false
+        right_kinova_arm_shoulder_link:
+          Value: false
+        right_kinova_arm_spherical_wrist_1_link:
+          Value: false
+        right_kinova_arm_spherical_wrist_2_link:
+          Value: false
+        right_kinova_arm_tool_frame:
+          Value: false
+        right_side_cover_link:
+          Value: false
+        riser_link:
+          Value: false
+        screw4:
+          Value: false
+        screw4_filtered:
+          Value: true
+        t1_beam1:
+          Value: false
+        t1_beam1_filtered:
+          Value: true
+        t1_beam2:
+          Value: false
+        t1_beam2_filtered:
+          Value: true
+        t1_beam3:
+          Value: false
+        t1_beam3_filtered:
+          Value: true
+        t1_beam4:
+          Value: false
+        t1_beam4_filtered:
+          Value: true
+        t2_beam1:
+          Value: false
+        t2_beam1_filtered:
           Value: true
         exotica/Frame3Bworld_frame:
           Value: true
@@ -365,7 +557,11 @@ Visualization Manager:
         t2_beam3:
           Value: false
         t2_beam3_filtered:
+          Value: true
+        t2_beam4:
           Value: false
+        t2_beam4_filtered:
+          Value: true
         table_origin:
           Value: true
         top_link:
@@ -375,7 +571,7 @@ Visualization Manager:
       Name: TF
       Show Arrows: false
       Show Axes: true
-      Show Names: false
+      Show Names: true
       Tree:
         base_link:
           left_beam:
@@ -409,271 +605,164 @@ Visualization Manager:
           exotica/Frame5Bworld_frame:
             exotica/Frame5Aright_target:
               {}
-          exotica/Obstacle:
-            {}
-          exotica/Obstacle_collision_0:
-            {}
-          exotica/axle_link:
-            {}
-          exotica/base_link:
-            {}
-          exotica/chassis_link:
-            {}
-          exotica/chassis_link_collision_0:
-            {}
-          exotica/dual_gen3_base_link:
-            {}
-          exotica/dual_gen3_base_link_collision_0:
-            {}
-          exotica/ewellix_lift_base_link:
-            {}
-          exotica/ewellix_lift_base_link_collision_0:
-            {}
-          exotica/ewellix_lift_top_link:
-            {}
-          exotica/ewellix_lift_top_link_collision_0:
-            {}
-          exotica/ewellix_mount_flange_link:
-            {}
-          exotica/ewellix_mount_flange_link_collision_0:
-            {}
-          exotica/front_cover_link:
-            {}
-          exotica/front_left_wheel_link:
-            {}
-          exotica/front_left_wheel_link_collision_0:
-            {}
-          exotica/front_lights_link:
-            {}
-          exotica/front_right_wheel_link:
-            {}
-          exotica/front_right_wheel_link_collision_0:
-            {}
-          exotica/front_rocker_link:
-            {}
-          exotica/gen3_plate_link:
-            {}
-          exotica/imu_link:
-            {}
-          exotica/left_forearm_target:
-            {}
-          exotica/left_kinova_arm_base_link:
-            {}
-          exotica/left_kinova_arm_base_link_collision_0:
-            {}
-          exotica/left_kinova_arm_bracelet_link:
-            {}
-          exotica/left_kinova_arm_bracelet_link_collision_0:
-            {}
-          exotica/left_kinova_arm_camera_color_frame:
-            {}
-          exotica/left_kinova_arm_camera_depth_frame:
-            {}
-          exotica/left_kinova_arm_camera_link:
-            {}
-          exotica/left_kinova_arm_end_effector_link:
-            {}
-          exotica/left_kinova_arm_forearm_link:
-            {}
-          exotica/left_kinova_arm_forearm_link_collision_0:
-            {}
-          exotica/left_kinova_arm_half_arm_1_link:
-            {}
-          exotica/left_kinova_arm_half_arm_1_link_collision_0:
-            {}
-          exotica/left_kinova_arm_half_arm_2_link:
-            {}
-          exotica/left_kinova_arm_half_arm_2_link_collision_0:
-            {}
-          exotica/left_kinova_arm_left_inner_finger:
-            {}
-          exotica/left_kinova_arm_left_inner_finger_collision_0:
-            {}
-          exotica/left_kinova_arm_left_inner_finger_pad:
-            {}
-          exotica/left_kinova_arm_left_inner_finger_pad_collision_0:
-            {}
-          exotica/left_kinova_arm_left_inner_knuckle:
-            {}
-          exotica/left_kinova_arm_left_inner_knuckle_collision_0:
-            {}
-          exotica/left_kinova_arm_left_outer_finger:
-            {}
-          exotica/left_kinova_arm_left_outer_finger_collision_0:
-            {}
-          exotica/left_kinova_arm_left_outer_knuckle:
-            {}
-          exotica/left_kinova_arm_left_outer_knuckle_collision_0:
-            {}
-          exotica/left_kinova_arm_right_inner_finger:
-            {}
-          exotica/left_kinova_arm_right_inner_finger_collision_0:
-            {}
-          exotica/left_kinova_arm_right_inner_finger_pad:
-            {}
-          exotica/left_kinova_arm_right_inner_finger_pad_collision_0:
-            {}
-          exotica/left_kinova_arm_right_inner_knuckle:
-            {}
-          exotica/left_kinova_arm_right_inner_knuckle_collision_0:
-            {}
-          exotica/left_kinova_arm_right_outer_finger:
-            {}
-          exotica/left_kinova_arm_right_outer_finger_collision_0:
-            {}
-          exotica/left_kinova_arm_right_outer_knuckle:
-            {}
-          exotica/left_kinova_arm_right_outer_knuckle_collision_0:
-            {}
-          exotica/left_kinova_arm_robotiq_arg2f_base_link:
-            {}
-          exotica/left_kinova_arm_robotiq_arg2f_base_link_collision_0:
-            {}
-          exotica/left_kinova_arm_shoulder_link:
-            {}
-          exotica/left_kinova_arm_shoulder_link_collision_0:
-            {}
-          exotica/left_kinova_arm_spherical_wrist_1_link:
-            {}
-          exotica/left_kinova_arm_spherical_wrist_1_link_collision_0:
-            {}
-          exotica/left_kinova_arm_spherical_wrist_2_link:
-            {}
-          exotica/left_kinova_arm_spherical_wrist_2_link_collision_0:
-            {}
-          exotica/left_kinova_arm_tool_frame:
-            {}
-          exotica/left_side_cover_link:
-            {}
-          exotica/left_target:
-            {}
-          exotica/mid_mount:
-            {}
-          exotica/rear_cover_link:
-            {}
-          exotica/rear_left_wheel_link:
-            {}
-          exotica/rear_left_wheel_link_collision_0:
-            {}
-          exotica/rear_lights_link:
-            {}
-          exotica/rear_plate_base_link:
-            {}
-          exotica/rear_plate_base_link_collision_0:
-            {}
-          exotica/rear_plate_link:
-            {}
-          exotica/rear_right_wheel_link:
-            {}
-          exotica/rear_right_wheel_link_collision_0:
-            {}
-          exotica/rear_rocker_link:
-            {}
-          exotica/right_forearm_target:
-            {}
-          exotica/right_kinova_arm_base_link:
-            {}
-          exotica/right_kinova_arm_base_link_collision_0:
-            {}
-          exotica/right_kinova_arm_bracelet_link:
-            {}
-          exotica/right_kinova_arm_bracelet_link_collision_0:
-            {}
-          exotica/right_kinova_arm_camera_color_frame:
-            {}
-          exotica/right_kinova_arm_camera_depth_frame:
-            {}
-          exotica/right_kinova_arm_camera_link:
-            {}
-          exotica/right_kinova_arm_end_effector_link:
-            {}
-          exotica/right_kinova_arm_forearm_link:
-            {}
-          exotica/right_kinova_arm_forearm_link_collision_0:
-            {}
-          exotica/right_kinova_arm_half_arm_1_link:
-            {}
-          exotica/right_kinova_arm_half_arm_1_link_collision_0:
-            {}
-          exotica/right_kinova_arm_half_arm_2_link:
-            {}
-          exotica/right_kinova_arm_half_arm_2_link_collision_0:
-            {}
-          exotica/right_kinova_arm_left_inner_finger:
-            {}
-          exotica/right_kinova_arm_left_inner_finger_collision_0:
-            {}
-          exotica/right_kinova_arm_left_inner_finger_pad:
-            {}
-          exotica/right_kinova_arm_left_inner_finger_pad_collision_0:
-            {}
-          exotica/right_kinova_arm_left_inner_knuckle:
-            {}
-          exotica/right_kinova_arm_left_inner_knuckle_collision_0:
-            {}
-          exotica/right_kinova_arm_left_outer_finger:
-            {}
-          exotica/right_kinova_arm_left_outer_finger_collision_0:
-            {}
-          exotica/right_kinova_arm_left_outer_knuckle:
-            {}
-          exotica/right_kinova_arm_left_outer_knuckle_collision_0:
-            {}
-          exotica/right_kinova_arm_right_inner_finger:
-            {}
-          exotica/right_kinova_arm_right_inner_finger_collision_0:
-            {}
-          exotica/right_kinova_arm_right_inner_finger_pad:
-            {}
-          exotica/right_kinova_arm_right_inner_finger_pad_collision_0:
-            {}
-          exotica/right_kinova_arm_right_inner_knuckle:
-            {}
-          exotica/right_kinova_arm_right_inner_knuckle_collision_0:
-            {}
-          exotica/right_kinova_arm_right_outer_finger:
-            {}
-          exotica/right_kinova_arm_right_outer_finger_collision_0:
-            {}
-          exotica/right_kinova_arm_right_outer_knuckle:
-            {}
-          exotica/right_kinova_arm_right_outer_knuckle_collision_0:
-            {}
-          exotica/right_kinova_arm_robotiq_arg2f_base_link:
-            {}
-          exotica/right_kinova_arm_robotiq_arg2f_base_link_collision_0:
-            {}
-          exotica/right_kinova_arm_shoulder_link:
-            {}
-          exotica/right_kinova_arm_shoulder_link_collision_0:
-            {}
-          exotica/right_kinova_arm_spherical_wrist_1_link:
-            {}
-          exotica/right_kinova_arm_spherical_wrist_1_link_collision_0:
-            {}
-          exotica/right_kinova_arm_spherical_wrist_2_link:
-            {}
-          exotica/right_kinova_arm_spherical_wrist_2_link_collision_0:
-            {}
-          exotica/right_kinova_arm_tool_frame:
-            {}
-          exotica/right_side_cover_link:
-            {}
-          exotica/right_target:
-            {}
-          exotica/riser_link:
-            {}
-          exotica/riser_link_collision_0:
-            {}
+            right_side_cover_link:
+              {}
+            riser_link:
+              mid_mount:
+                ewellix_mount_flange_link:
+                  ewellix_lift_base_link:
+                    ewellix_lift_top_link:
+                      dual_gen3_base_link:
+                        gen3_plate_link:
+                          {}
+                        left_kinova_arm_base_link:
+                          left_kinova_arm_shoulder_link:
+                            left_kinova_arm_half_arm_1_link:
+                              left_kinova_arm_half_arm_2_link:
+                                left_kinova_arm_forearm_link:
+                                  left_kinova_arm_spherical_wrist_1_link:
+                                    left_kinova_arm_spherical_wrist_2_link:
+                                      left_kinova_arm_bracelet_link:
+                                        left_kinova_arm_end_effector_link:
+                                          left_kinova_arm_camera_color_frame:
+                                            {}
+                                          left_kinova_arm_camera_depth_frame:
+                                            {}
+                                          left_kinova_arm_camera_link:
+                                            {}
+                                          left_kinova_arm_robotiq_arg2f_base_link:
+                                            left_kinova_arm_left_inner_knuckle:
+                                              {}
+                                            left_kinova_arm_left_outer_knuckle:
+                                              left_kinova_arm_left_outer_finger:
+                                                left_kinova_arm_left_inner_finger:
+                                                  left_kinova_arm_left_inner_finger_pad:
+                                                    {}
+                                            left_kinova_arm_right_inner_knuckle:
+                                              {}
+                                            left_kinova_arm_right_outer_knuckle:
+                                              left_kinova_arm_right_outer_finger:
+                                                left_kinova_arm_right_inner_finger:
+                                                  left_kinova_arm_right_inner_finger_pad:
+                                                    {}
+                                          left_kinova_arm_tool_frame:
+                                            {}
+                        ptu_base_link:
+                          ptu_pan_link:
+                            ptu_tilt_link:
+                              ptu_tilted_link:
+                                ptu_mount_link:
+                                  realsense_mount_link:
+                                    camera_bottom_screw_frame:
+                                      camera_link:
+                                        beam1:
+                                          {}
+                                        beam1_filtered:
+                                          {}
+                                        beam2:
+                                          {}
+                                        beam2_filtered:
+                                          {}
+                                        beam3:
+                                          {}
+                                        beam3_filtered:
+                                          {}
+                                        beam4:
+                                          {}
+                                        beam4_filtered:
+                                          {}
+                                        camera_color_frame:
+                                          camera_color_optical_frame:
+                                            screw4:
+                                              {}
+                                            t1_beam1:
+                                              {}
+                                            t1_beam2:
+                                              {}
+                                            t1_beam3:
+                                              {}
+                                            t1_beam4:
+                                              {}
+                                            t2_beam1:
+                                              {}
+                                            t2_beam2:
+                                              {}
+                                            t2_beam3:
+                                              {}
+                                            t2_beam4:
+                                              {}
+                                        camera_depth_frame:
+                                          camera_depth_optical_frame:
+                                            {}
+                                        camera_infra1_frame:
+                                          camera_infra1_optical_frame:
+                                            {}
+                                        camera_infra2_frame:
+                                          camera_infra2_optical_frame:
+                                            {}
+                                        screw4_filtered:
+                                          {}
+                                        t1_beam1_filtered:
+                                          {}
+                                        t1_beam2_filtered:
+                                          {}
+                                        t1_beam3_filtered:
+                                          {}
+                                        t1_beam4_filtered:
+                                          {}
+                                        t2_beam1_filtered:
+                                          {}
+                                        t2_beam2_filtered:
+                                          {}
+                                        t2_beam3_filtered:
+                                          {}
+                                        t2_beam4_filtered:
+                                          {}
+                        right_kinova_arm_base_link:
+                          right_kinova_arm_shoulder_link:
+                            right_kinova_arm_half_arm_1_link:
+                              right_kinova_arm_half_arm_2_link:
+                                right_kinova_arm_forearm_link:
+                                  right_kinova_arm_spherical_wrist_1_link:
+                                    right_kinova_arm_spherical_wrist_2_link:
+                                      right_kinova_arm_bracelet_link:
+                                        right_kinova_arm_end_effector_link:
+                                          right_kinova_arm_camera_color_frame:
+                                            {}
+                                          right_kinova_arm_camera_depth_frame:
+                                            {}
+                                          right_kinova_arm_camera_link:
+                                            {}
+                                          right_kinova_arm_robotiq_arg2f_base_link:
+                                            right_kinova_arm_left_inner_knuckle:
+                                              {}
+                                            right_kinova_arm_left_outer_knuckle:
+                                              right_kinova_arm_left_outer_finger:
+                                                right_kinova_arm_left_inner_finger:
+                                                  right_kinova_arm_left_inner_finger_pad:
+                                                    {}
+                                            right_kinova_arm_right_inner_knuckle:
+                                              {}
+                                            right_kinova_arm_right_outer_knuckle:
+                                              right_kinova_arm_right_outer_finger:
+                                                right_kinova_arm_right_inner_finger:
+                                                  right_kinova_arm_right_inner_finger_pad:
+                                                    {}
+                                          right_kinova_arm_tool_frame:
+                                            {}
+                rear_plate_base_link:
+                  rear_plate_link:
+                    {}
+                table_origin:
+                  {}
+              top_link:
+                {}
+        exotica/world_frame:
           exotica/table_origin:
-            {}
-          exotica/top_link:
-            {}
-          exotica/top_link_collision_0:
             {}
       Update Interval: 0
       Value: true
-    - Alpha: 1
+    - Alpha: 0.10000000149011612
       Class: rviz/RobotModel
       Collision Enabled: false
       Enabled: true
@@ -1146,7 +1235,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.3179500102996826
+      Distance: 1.6922029256820679
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -1162,9 +1251,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.360400915145874
+      Pitch: 0.5054013729095459
       Target Frame: <Fixed Frame>
-      Yaw: 6.198578357696533
+      Yaw: 6.268580913543701
     Saved: ~
 Window Geometry:
   Displays:
