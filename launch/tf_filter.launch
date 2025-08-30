@@ -1,6 +1,8 @@
 <launch>
     <!-- Add filter parameters here once tested -->
 
-    <node name="tf_filter" pkg="ramp_apriltag_detector" type="transform_filter.py" output="screen" />
+    <node name="tf_filter" pkg="ramp_apriltag_detector" type="transform_filter.py" output="screen">
+        <rosparam command="load" file="$(find ramp_apriltag_detector)/config/tags.yaml"/>
+    </node>
 
 </launch>
