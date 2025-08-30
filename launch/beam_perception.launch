@@ -5,8 +5,8 @@
 
     <!-- Launch the april tag detector -->
     <include file="$(find ramp_apriltag_detector)/launch/continuous_detector.launch"/> 
-    <!-- <include file="$(find ramp_apriltag_detector)/launch/left_continuous_detector.launch"/>  -->
-    <!-- <include file="$(find ramp_apriltag_detector)/launch/right_continuous_detector.launch"/>  -->
+    <include file="$(find ramp_apriltag_detector)/launch/left_continuous_detector.launch"/> 
+    <include file="$(find ramp_apriltag_detector)/launch/right_continuous_detector.launch"/> 
 
     <include file="$(find ramp_apriltag_detector)/launch/tf_filter.launch"/> 
 
