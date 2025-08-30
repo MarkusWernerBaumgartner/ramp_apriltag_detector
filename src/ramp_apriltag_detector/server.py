@@ -326,6 +326,8 @@ def listen_to(beam_tracker: Beamtracker, mode: str = "detect"):
 
     tf_buffer = tf2_ros.Buffer()
     listener = tf2_ros.TransformListener(tf_buffer)
+    
+    parent_frame = "world"
 
     if mode == "detect":
         br = tf2_ros.TransformBroadcaster()
@@ -336,7 +338,7 @@ def listen_to(beam_tracker: Beamtracker, mode: str = "detect"):
         for tf_id in tags_names:
             try:
                 transforms.append(
-                tf_buffer.lookup_transform("camera_link", tf_id, rospy.Time(0))
+                tf_buffer.lookup_transform(parent_frame, tf_id, rospy.Time(0))
                 )
             except (
             tf2_ros.LookupException,
