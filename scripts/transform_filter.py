@@ -31,15 +31,15 @@ if __name__ == "__main__":
     # Filter dim must be 6
     dim = 6
     # Sampling frequency 
-    dt = 1.0 / 400.0 # Seconds
-    damping_ratio = 2.0 # Slightly under damped with no ringing
-    rise_time = 1.0 # Seconds
+    dt = 1.0 / 100.0 # Seconds
+    damping_ratio = 0.8 # Slightly under damped with no ringing
+    rise_time = 0.2 # Seconds
     
     params = LTIBaseParams(rise_time, damping_ratio)
     filter = DiscreteManualLTI(dim, params, dt)
 
     # parent_frame = "camera_link"
-    parent_frame = "world"
+    parent_frame = "base_link"
     
     # Create the tf filter
     tf_filter = FilterTf(tf_to_filter, filter, parent_frame)

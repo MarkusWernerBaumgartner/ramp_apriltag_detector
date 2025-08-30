@@ -327,7 +327,7 @@ def listen_to(beam_tracker: Beamtracker, mode: str = "detect"):
     tf_buffer = tf2_ros.Buffer()
     listener = tf2_ros.TransformListener(tf_buffer)
     
-    parent_frame = "world"
+    parent_frame = "base_link"
 
     if mode == "detect":
         br = tf2_ros.TransformBroadcaster()
