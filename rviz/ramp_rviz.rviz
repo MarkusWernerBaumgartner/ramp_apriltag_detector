@@ -9,7 +9,7 @@ Panels:
         - /TF1
         - /TF1/Frames1
       Splitter Ratio: 0.7683284282684326
-    Tree Height: 1790
+    Tree Height: 275
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -244,6 +244,14 @@ Visualization Manager:
           Value: false
         riser_link:
           Value: false
+        screw3:
+          Value: true
+        screw3_filtered:
+          Value: true
+        screw4:
+          Value: true
+        screw4_filtered:
+          Value: true
         t1_beam1:
           Value: false
         t1_beam1_filtered:
@@ -260,304 +268,6 @@ Visualization Manager:
           Value: false
         t1_beam4_filtered:
           Value: true
-        t2_beam1:
-          Value: false
-        t2_beam1_filtered:
-          Value: true
-        exotica/Frame3Bworld_frame:
-          Value: true
-        exotica/Frame4Aleft_target:
-          Value: true
-        exotica/Frame4Bworld_frame:
-          Value: true
-        exotica/Frame5Aright_target:
-          Value: true
-        exotica/Frame5Bworld_frame:
-          Value: true
-        exotica/Obstacle:
-          Value: true
-        exotica/Obstacle_collision_0:
-          Value: true
-        exotica/axle_link:
-          Value: true
-        exotica/base_link:
-          Value: true
-        exotica/chassis_link:
-          Value: true
-        exotica/chassis_link_collision_0:
-          Value: true
-        exotica/dual_gen3_base_link:
-          Value: true
-        exotica/dual_gen3_base_link_collision_0:
-          Value: true
-        exotica/ewellix_lift_base_link:
-          Value: true
-        exotica/ewellix_lift_base_link_collision_0:
-          Value: true
-        exotica/ewellix_lift_top_link:
-          Value: true
-        exotica/ewellix_lift_top_link_collision_0:
-          Value: true
-        exotica/ewellix_mount_flange_link:
-          Value: true
-        exotica/ewellix_mount_flange_link_collision_0:
-          Value: true
-        exotica/front_cover_link:
-          Value: true
-        exotica/front_left_wheel_link:
-          Value: true
-        exotica/front_left_wheel_link_collision_0:
-          Value: true
-        exotica/front_lights_link:
-          Value: true
-        exotica/front_right_wheel_link:
-          Value: true
-        exotica/front_right_wheel_link_collision_0:
-          Value: true
-        exotica/front_rocker_link:
-          Value: true
-        exotica/gen3_plate_link:
-          Value: true
-        exotica/imu_link:
-          Value: true
-        exotica/left_forearm_target:
-          Value: true
-        exotica/left_kinova_arm_base_link:
-          Value: true
-        exotica/left_kinova_arm_base_link_collision_0:
-          Value: true
-        exotica/left_kinova_arm_bracelet_link:
-          Value: true
-        exotica/left_kinova_arm_bracelet_link_collision_0:
-          Value: true
-        exotica/left_kinova_arm_camera_color_frame:
-          Value: true
-        exotica/left_kinova_arm_camera_depth_frame:
-          Value: true
-        exotica/left_kinova_arm_camera_link:
-          Value: true
-        exotica/left_kinova_arm_end_effector_link:
-          Value: true
-        exotica/left_kinova_arm_forearm_link:
-          Value: true
-        exotica/left_kinova_arm_forearm_link_collision_0:
-          Value: true
-        exotica/left_kinova_arm_half_arm_1_link:
-          Value: true
-        exotica/left_kinova_arm_half_arm_1_link_collision_0:
-          Value: true
-        exotica/left_kinova_arm_half_arm_2_link:
-          Value: true
-        exotica/left_kinova_arm_half_arm_2_link_collision_0:
-          Value: true
-        exotica/left_kinova_arm_left_inner_finger:
-          Value: true
-        exotica/left_kinova_arm_left_inner_finger_collision_0:
-          Value: true
-        exotica/left_kinova_arm_left_inner_finger_pad:
-          Value: true
-        exotica/left_kinova_arm_left_inner_finger_pad_collision_0:
-          Value: true
-        exotica/left_kinova_arm_left_inner_knuckle:
-          Value: true
-        exotica/left_kinova_arm_left_inner_knuckle_collision_0:
-          Value: true
-        exotica/left_kinova_arm_left_outer_finger:
-          Value: true
-        exotica/left_kinova_arm_left_outer_finger_collision_0:
-          Value: true
-        exotica/left_kinova_arm_left_outer_knuckle:
-          Value: true
-        exotica/left_kinova_arm_left_outer_knuckle_collision_0:
-          Value: true
-        exotica/left_kinova_arm_right_inner_finger:
-          Value: true
-        exotica/left_kinova_arm_right_inner_finger_collision_0:
-          Value: true
-        exotica/left_kinova_arm_right_inner_finger_pad:
-          Value: true
-        exotica/left_kinova_arm_right_inner_finger_pad_collision_0:
-          Value: true
-        exotica/left_kinova_arm_right_inner_knuckle:
-          Value: true
-        exotica/left_kinova_arm_right_inner_knuckle_collision_0:
-          Value: true
-        exotica/left_kinova_arm_right_outer_finger:
-          Value: true
-        exotica/left_kinova_arm_right_outer_finger_collision_0:
-          Value: true
-        exotica/left_kinova_arm_right_outer_knuckle:
-          Value: true
-        exotica/left_kinova_arm_right_outer_knuckle_collision_0:
-          Value: true
-        exotica/left_kinova_arm_robotiq_arg2f_base_link:
-          Value: true
-        exotica/left_kinova_arm_robotiq_arg2f_base_link_collision_0:
-          Value: true
-        exotica/left_kinova_arm_shoulder_link:
-          Value: true
-        exotica/left_kinova_arm_shoulder_link_collision_0:
-          Value: true
-        exotica/left_kinova_arm_spherical_wrist_1_link:
-          Value: true
-        exotica/left_kinova_arm_spherical_wrist_1_link_collision_0:
-          Value: true
-        exotica/left_kinova_arm_spherical_wrist_2_link:
-          Value: true
-        exotica/left_kinova_arm_spherical_wrist_2_link_collision_0:
-          Value: true
-        exotica/left_kinova_arm_tool_frame:
-          Value: true
-        exotica/left_side_cover_link:
-          Value: true
-        exotica/left_target:
-          Value: true
-        exotica/mid_mount:
-          Value: true
-        exotica/rear_cover_link:
-          Value: true
-        exotica/rear_left_wheel_link:
-          Value: true
-        exotica/rear_left_wheel_link_collision_0:
-          Value: true
-        exotica/rear_lights_link:
-          Value: true
-        exotica/rear_plate_base_link:
-          Value: true
-        exotica/rear_plate_base_link_collision_0:
-          Value: true
-        exotica/rear_plate_link:
-          Value: true
-        exotica/rear_right_wheel_link:
-          Value: true
-        exotica/rear_right_wheel_link_collision_0:
-          Value: true
-        exotica/rear_rocker_link:
-          Value: true
-        exotica/right_forearm_target:
-          Value: true
-        exotica/right_kinova_arm_base_link:
-          Value: true
-        exotica/right_kinova_arm_base_link_collision_0:
-          Value: true
-        exotica/right_kinova_arm_bracelet_link:
-          Value: true
-        exotica/right_kinova_arm_bracelet_link_collision_0:
-          Value: true
-        exotica/right_kinova_arm_camera_color_frame:
-          Value: true
-        exotica/right_kinova_arm_camera_depth_frame:
-          Value: true
-        exotica/right_kinova_arm_camera_link:
-          Value: true
-        exotica/right_kinova_arm_end_effector_link:
-          Value: true
-        exotica/right_kinova_arm_forearm_link:
-          Value: true
-        exotica/right_kinova_arm_forearm_link_collision_0:
-          Value: true
-        exotica/right_kinova_arm_half_arm_1_link:
-          Value: true
-        exotica/right_kinova_arm_half_arm_1_link_collision_0:
-          Value: true
-        exotica/right_kinova_arm_half_arm_2_link:
-          Value: true
-        exotica/right_kinova_arm_half_arm_2_link_collision_0:
-          Value: true
-        exotica/right_kinova_arm_left_inner_finger:
-          Value: true
-        exotica/right_kinova_arm_left_inner_finger_collision_0:
-          Value: true
-        exotica/right_kinova_arm_left_inner_finger_pad:
-          Value: true
-        exotica/right_kinova_arm_left_inner_finger_pad_collision_0:
-          Value: true
-        exotica/right_kinova_arm_left_inner_knuckle:
-          Value: true
-        exotica/right_kinova_arm_left_inner_knuckle_collision_0:
-          Value: true
-        exotica/right_kinova_arm_left_outer_finger:
-          Value: true
-        exotica/right_kinova_arm_left_outer_finger_collision_0:
-          Value: true
-        exotica/right_kinova_arm_left_outer_knuckle:
-          Value: true
-        exotica/right_kinova_arm_left_outer_knuckle_collision_0:
-          Value: true
-        exotica/right_kinova_arm_right_inner_finger:
-          Value: true
-        exotica/right_kinova_arm_right_inner_finger_collision_0:
-          Value: true
-        exotica/right_kinova_arm_right_inner_finger_pad:
-          Value: true
-        exotica/right_kinova_arm_right_inner_finger_pad_collision_0:
-          Value: true
-        exotica/right_kinova_arm_right_inner_knuckle:
-          Value: true
-        exotica/right_kinova_arm_right_inner_knuckle_collision_0:
-          Value: true
-        exotica/right_kinova_arm_right_outer_finger:
-          Value: true
-        exotica/right_kinova_arm_right_outer_finger_collision_0:
-          Value: true
-        exotica/right_kinova_arm_right_outer_knuckle:
-          Value: true
-        exotica/right_kinova_arm_right_outer_knuckle_collision_0:
-          Value: true
-        exotica/right_kinova_arm_robotiq_arg2f_base_link:
-          Value: true
-        exotica/right_kinova_arm_robotiq_arg2f_base_link_collision_0:
-          Value: true
-        exotica/right_kinova_arm_shoulder_link:
-          Value: true
-        exotica/right_kinova_arm_shoulder_link_collision_0:
-          Value: true
-        exotica/right_kinova_arm_spherical_wrist_1_link:
-          Value: true
-        exotica/right_kinova_arm_spherical_wrist_1_link_collision_0:
-          Value: true
-        exotica/right_kinova_arm_spherical_wrist_2_link:
-          Value: true
-        exotica/right_kinova_arm_spherical_wrist_2_link_collision_0:
-          Value: true
-        exotica/right_kinova_arm_tool_frame:
-          Value: true
-        exotica/right_side_cover_link:
-          Value: true
-        exotica/right_target:
-          Value: true
-        exotica/riser_link:
-          Value: true
-        exotica/riser_link_collision_0:
-          Value: true
-        exotica/table_origin:
-          Value: true
-        exotica/top_link:
-          Value: true
-        exotica/top_link_collision_0:
-          Value: true
-        exotica/world_frame:
-          Value: true
-        left_beam:
-          Value: true
-        left_goal:
-          Value: true
-        left_pregrasp:
-          Value: true
-        right_beam:
-          Value: true
-        right_goal:
-          Value: true
-        right_pregrasp:
-          Value: true
-        t2_beam3:
-          Value: false
-        t2_beam3_filtered:
-          Value: true
-        t2_beam4:
-          Value: false
-        t2_beam4_filtered:
-          Value: true
         table_origin:
           Value: true
         top_link:
@@ -570,21 +280,27 @@ Visualization Manager:
       Show Names: true
       Tree:
         base_link:
-          left_beam:
+          beam1:
             {}
-          left_goal:
+          beam1_filtered:
             {}
-          left_pregrasp:
+          beam2:
             {}
-          right_beam:
+          beam2_filtered:
             {}
-          right_goal:
+          beam3:
             {}
-          right_pregrasp:
+          beam3_filtered:
             {}
-        exotica/world_frame:
-          exotica/Frame0Bworld_frame:
-            exotica/Frame0Aleft_target:
+          beam4:
+            {}
+          beam4_filtered:
+            {}
+          chassis_link:
+            axle_link:
+              rear_rocker_link:
+                {}
+            front_cover_link:
               {}
           exotica/Frame1Bworld_frame:
             exotica/Frame1Aright_target:
@@ -620,11 +336,12 @@ Visualization Manager:
                                     left_kinova_arm_spherical_wrist_2_link:
                                       left_kinova_arm_bracelet_link:
                                         left_kinova_arm_end_effector_link:
+                                          left_kinova_arm_camera_color_frame:
+                                            {}
+                                          left_kinova_arm_camera_depth_frame:
+                                            {}
                                           left_kinova_arm_camera_link:
-                                            left_kinova_arm_camera_color_frame:
-                                              {}
-                                            left_kinova_arm_camera_depth_frame:
-                                              {}
+                                            {}
                                           left_kinova_arm_robotiq_arg2f_base_link:
                                             left_kinova_arm_left_inner_knuckle:
                                               {}
@@ -650,24 +367,12 @@ Visualization Manager:
                                   realsense_mount_link:
                                     camera_bottom_screw_frame:
                                       camera_link:
-                                        beam1:
-                                          {}
-                                        beam1_filtered:
-                                          {}
-                                        beam2:
-                                          {}
-                                        beam2_filtered:
-                                          {}
-                                        beam3:
-                                          {}
-                                        beam3_filtered:
-                                          {}
-                                        beam4:
-                                          {}
-                                        beam4_filtered:
-                                          {}
                                         camera_color_frame:
                                           camera_color_optical_frame:
+                                            screw3:
+                                              {}
+                                            screw4:
+                                              {}
                                             t1_beam1:
                                               {}
                                             t1_beam2:
@@ -675,12 +380,6 @@ Visualization Manager:
                                             t1_beam3:
                                               {}
                                             t1_beam4:
-                                              {}
-                                            t2_beam1:
-                                              {}
-                                            t2_beam3:
-                                              {}
-                                            t2_beam4:
                                               {}
                                         camera_depth_frame:
                                           camera_depth_optical_frame:
@@ -691,22 +390,6 @@ Visualization Manager:
                                         camera_infra2_frame:
                                           camera_infra2_optical_frame:
                                             {}
-                                        t1_beam1_filtered:
-                                          {}
-                                        t1_beam2_filtered:
-                                          {}
-                                        t1_beam3_filtered:
-                                          {}
-                                        t1_beam4_filtered:
-                                          {}
-                                        t2_beam1_filtered:
-                                          {}
-                                        t2_beam2_filtered:
-                                          {}
-                                        t2_beam3_filtered:
-                                          {}
-                                        t2_beam4_filtered:
-                                          {}
                         right_kinova_arm_base_link:
                           right_kinova_arm_shoulder_link:
                             right_kinova_arm_half_arm_1_link:
@@ -716,12 +399,12 @@ Visualization Manager:
                                     right_kinova_arm_spherical_wrist_2_link:
                                       right_kinova_arm_bracelet_link:
                                         right_kinova_arm_end_effector_link:
+                                          right_kinova_arm_camera_color_frame:
+                                            {}
+                                          right_kinova_arm_camera_depth_frame:
+                                            {}
                                           right_kinova_arm_camera_link:
-                                            right_kinova_arm_camera_color_frame:
-                                              t2_beam2:
-                                                {}
-                                            right_kinova_arm_camera_depth_frame:
-                                              {}
+                                            {}
                                           right_kinova_arm_robotiq_arg2f_base_link:
                                             right_kinova_arm_left_inner_knuckle:
                                               {}
@@ -746,6 +429,18 @@ Visualization Manager:
                   {}
               top_link:
                 {}
+          screw3_filtered:
+            {}
+          screw4_filtered:
+            {}
+          t1_beam1_filtered:
+            {}
+          t1_beam2_filtered:
+            {}
+          t1_beam3_filtered:
+            {}
+          t1_beam4_filtered:
+            {}
         exotica/world_frame:
           exotica/table_origin:
             {}
@@ -1224,7 +919,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.301395893096924
+      Distance: 1.6575253009796143
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -1232,17 +927,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -0.2855331599712372
-        Y: 0.03743303567171097
-        Z: 0.5280457735061646
+        X: -0.27280640602111816
+        Y: -0.07908806204795837
+        Z: 0.5236351490020752
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4704013764858246
+      Pitch: 0.48540130257606506
       Target Frame: <Fixed Frame>
-      Yaw: 6.258580684661865
+      Yaw: 0.03539469093084335
     Saved: ~
 Window Geometry:
   Displays:
