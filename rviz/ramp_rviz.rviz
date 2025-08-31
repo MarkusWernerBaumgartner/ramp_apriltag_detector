@@ -244,13 +244,9 @@ Visualization Manager:
           Value: false
         riser_link:
           Value: false
-        screw3:
+        screw1:
           Value: true
-        screw3_filtered:
-          Value: true
-        screw4:
-          Value: true
-        screw4_filtered:
+        screw1_filtered:
           Value: true
         t1_beam1:
           Value: false
@@ -267,6 +263,22 @@ Visualization Manager:
         t1_beam4:
           Value: false
         t1_beam4_filtered:
+          Value: true
+        t2_beam1:
+          Value: true
+        t2_beam1_filtered:
+          Value: true
+        t2_beam2:
+          Value: true
+        t2_beam2_filtered:
+          Value: true
+        t2_beam3:
+          Value: true
+        t2_beam3_filtered:
+          Value: true
+        t2_beam4:
+          Value: true
+        t2_beam4_filtered:
           Value: true
         table_origin:
           Value: true
@@ -369,9 +381,7 @@ Visualization Manager:
                                       camera_link:
                                         camera_color_frame:
                                           camera_color_optical_frame:
-                                            screw3:
-                                              {}
-                                            screw4:
+                                            screw1:
                                               {}
                                             t1_beam1:
                                               {}
@@ -380,6 +390,14 @@ Visualization Manager:
                                             t1_beam3:
                                               {}
                                             t1_beam4:
+                                              {}
+                                            t2_beam1:
+                                              {}
+                                            t2_beam2:
+                                              {}
+                                            t2_beam3:
+                                              {}
+                                            t2_beam4:
                                               {}
                                         camera_depth_frame:
                                           camera_depth_optical_frame:
@@ -429,9 +447,7 @@ Visualization Manager:
                   {}
               top_link:
                 {}
-          screw3_filtered:
-            {}
-          screw4_filtered:
+          screw1_filtered:
             {}
           t1_beam1_filtered:
             {}
@@ -440,6 +456,14 @@ Visualization Manager:
           t1_beam3_filtered:
             {}
           t1_beam4_filtered:
+            {}
+          t2_beam1_filtered:
+            {}
+          t2_beam2_filtered:
+            {}
+          t2_beam3_filtered:
+            {}
+          t2_beam4_filtered:
             {}
         exotica/world_frame:
           exotica/table_origin:
@@ -919,7 +943,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.6575253009796143
+      Distance: 2.07919979095459
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
