@@ -31,9 +31,9 @@ if __name__ == "__main__":
     # Filter dim must be 6
     dim = 6
     # Sampling frequency 
-    dt = 1.0 / 100.0 # Seconds
-    damping_ratio = 0.8 # Slightly under damped with no ringing
-    rise_time = 0.2 # Seconds
+    dt = 1.0 / 30.0 # Seconds
+    damping_ratio = 1.5 # Slightly under damped with no ringing
+    rise_time = 0.5 # Seconds
     
     params = LTIBaseParams(rise_time, damping_ratio)
     filter = DiscreteManualLTI(dim, params, dt)
