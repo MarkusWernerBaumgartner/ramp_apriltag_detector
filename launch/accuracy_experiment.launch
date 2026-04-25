@@ -1,0 +1,50 @@
+<launch>
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Beam detection accuracy experiment.
+
+       Starts the AprilTag detectors and beam_tracking (pre-filter only),
+       then opens an interactive experiment runner in a dedicated terminal.
+
+       To compare tag families:
+         1. Edit config/settings.yaml  →  tag_family: 'tag16h5'
+         2. Re-print tags for the new family
+         3. Re-run this launch with  tag_family:=tag16h5
+         Results are saved per-family to <package>/experiment_results/
+
+       Usage:
+         roslaunch ramp_apriltag_detector accuracy_experiment.launch \
+             tag_family:=tag25h9  inter_tag_distance_mm:=35.0
+
+       Requires xterm:  sudo apt install xterm
+  ════════════════════════════════════════════════════════════════════ -->
+
+  <!-- ── Args ────────────────────────────────────────────────────────── -->
+  <arg name="use_side_cameras" default="false"
+       doc="Also start left/right arm camera detectors."/>
+
+  <!-- ── AprilTag detectors ───────────────────────────────────────────── -->
+  <include file="$(find ramp_apriltag_detector)/launch/continuous_detector.launch"/>
+
+  <group if="$(arg use_side_cameras)">
+    <include file="$(find ramp_apriltag_detector)/launch/left_continuous_detector.launch"/>
+    <include file="$(find ramp_apriltag_detector)/launch/right_continuous_detector.launch"/>
+  </group>
+
+  <!-- ── Beam pose estimation (pre-filter) ───────────────────────────── -->
+  <node name="beam_tracking"
+        pkg="ramp_apriltag_detector"
+        type="beam_perception.py"
+        output="screen"/>
+
+  <!-- ── Experiment runner ────────────────────────────────────────────── -->
+  <!--  Run the experiment node separately in your own terminal:
+        rosrun ramp_apriltag_detector beam_experiment.py \
+            _tag_family:=tag25h9          \
+            _beam_name:=beam1             \
+            _tag1_name:=t1_beam1          \
+            _tag2_name:=t2_beam1          \
+            _inter_tag_distance_mm:=35.0  \
+            _n_repeatability:=20
+  -->
+
+</launch>
